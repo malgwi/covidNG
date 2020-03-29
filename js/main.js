@@ -23,7 +23,6 @@ getNgInfo.onload = function () {
     document.getElementById('total_new_cases_today').innerHTML  = countrydata.total_new_cases_today;
     document.getElementById('total_new_deaths_today').innerHTML = countrydata.total_new_deaths_today;
     document.getElementById('total_active_cases').innerHTML     = countrydata.total_active_cases;
-    document.getElementById('total_serious_cases').innerHTML    = countrydata.total_serious_cases;
 
 }
 
