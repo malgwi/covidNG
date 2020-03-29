@@ -18,7 +18,6 @@ getNgInfo.onload = function () {
 
     document.getElementById('total_cases').innerHTML            = countrydata.total_cases;
     document.getElementById('total_recovered').innerHTML        = countrydata.total_recovered;
-    document.getElementById('total_unresolved').innerHTML       = countrydata.total_unresolved;
     document.getElementById('total_deaths').innerHTML           = countrydata.total_deaths;
     document.getElementById('total_new_cases_today').innerHTML  = countrydata.total_new_cases_today;
     document.getElementById('total_new_deaths_today').innerHTML = countrydata.total_new_deaths_today;
