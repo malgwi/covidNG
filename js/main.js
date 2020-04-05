@@ -3,7 +3,7 @@
 /*** GET JSON DATA USING AJAX ***/
 var getNgInfo = new XMLHttpRequest();
 
-getNgInfo.open('GET', 'https://thevirustracker.com/free-api?countryTotal=NG');
+getNgInfo.open('GET', 'https://api.thevirustracker.com/free-api?countryTotal=NG');
 
 // When data loads
 getNgInfo.onload = function () {
